@@ -36,4 +36,7 @@ public class Main {
 //    6. Aplikacja powinna obsługiwać logowanie akcji wykonywanych od strony FrontEndu
 //    7. Aplikacja powinna zawierać testy jednostkowe dla każdego obsługiwanego żądania
 //    8. Piszemy przy pomocy tylko pakietów z JDK, jedyny wyjątek to biblioteki testowe oraz parsery JSONów
+
+//    Aktualny FrontEnd (będzie rozwijany, a może poprawiony ;) ):
+//      https://editor.swagger.io/?_ga=2.27098621.139862542.1529283950-1958724428.1521772135
 }
