@@ -8,12 +8,25 @@ public class Main {
     private static final Logger LOGGER = Logger.getLogger(Main.class.getName());
 
     public static void main(String[] args) throws IOException {
-        HttpServer server = HttpServer.create(new InetSocketAddress("localhost", 8080), 0);
-        server.createContext("/musicCatalog/example", new ExampleHandler());
-        server.setExecutor(null);
-        server.start();
-        LOGGER.info(server.getAddress().getHostName());
-        LOGGER.info("Server started on port 8080");
+//        HttpServer server = HttpServer.create(new InetSocketAddress("localhost", 8080), 0);
+//        server.createContext("/musicCatalog/example", new ExampleHandler());
+//        server.setExecutor(null);
+//        server.start();
+//        LOGGER.info(server.getAddress().getHostName());
+//        LOGGER.info("Server started on port 8080");
+        String tekst = null;
+        int wynik = tekst == null ? metoda1() : metoda2();
+        System.out.println(wynik);
+    }
+
+    private static int metoda1() {
+        System.out.println("Metoda1");
+        return 1;
+    }
+
+    private static int metoda2() {
+        System.out.println("Metoda2");
+        return 2;
     }
 
 //    Materiały:
